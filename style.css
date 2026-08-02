@@ -41,12 +41,14 @@ h1{max-width:940px;margin:0;font-family:Georgia,serif;font-size:clamp(2.4rem,6vw
 .program-heading .eyebrow{color:var(--blue)}
 .program-heading h1{margin:0;color:var(--navy);font-size:clamp(2.2rem,4vw,3.2rem)}
 .program-heading + .section{padding-top:30px}
-.support-grid{align-items:stretch}
 .details-note{margin:30px 0 0;color:var(--muted)}
 .contact-lead{margin:26px 0 44px}
 .contact-lead p:last-child{margin-bottom:0}
 .directory-heading{color:var(--navy);font-size:1.35rem}
-.registration-status{margin:24px 0 54px}
+.registration-details{max-width:650px;margin:30px 0 4px;border-top:1px solid var(--line)}
+.registration-details div{display:grid;grid-template-columns:210px 1fr;gap:24px;padding:14px 0;border-bottom:1px solid var(--line)}
+.registration-details dt{color:var(--navy);font-weight:800}.registration-details dd{margin:0}
+.registration-form-placeholder{display:inline-block;margin-top:24px;padding:12px 20px;border-radius:999px;color:var(--white);background:var(--blue);font-weight:800}
 .program-overview{display:grid;grid-template-columns:repeat(2,1fr);gap:28px;align-items:start}
 .day-schedule{overflow:hidden;border:1px solid var(--line);border-radius:18px;background:var(--white);box-shadow:var(--shadow)}
 .day-schedule:last-child{grid-column:1/-1}
@@ -65,4 +67,4 @@ h1{max-width:940px;margin:0;font-family:Georgia,serif;font-size:clamp(2.4rem,6vw
 .site-footer{padding:42px 0;color:#b9cad8;background:#071c35}
 .site-footer strong{color:var(--white)}
 .site-footer a{color:#9edbd6}
-@media(max-width:800px){.nav{align-items:flex-start;flex-direction:column;padding:16px 0}.grid,.directory,.program-overview{grid-template-columns:1fr}.day-schedule:last-child{grid-column:auto}.timeline li,.speaker-slot{grid-template-columns:1fr;gap:2px}.hero{padding-top:62px}.button.alt{margin:10px 0 0}}
+@media(max-width:800px){.nav{align-items:flex-start;flex-direction:column;padding:16px 0}.grid,.directory,.program-overview{grid-template-columns:1fr}.day-schedule:last-child{grid-column:auto}.timeline li,.speaker-slot,.registration-details div{grid-template-columns:1fr;gap:2px}.hero{padding-top:62px}.button.alt{margin:10px 0 0}}

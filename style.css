@@ -58,9 +58,10 @@ h1{max-width:940px;margin:0;font-family:Georgia,serif;font-size:clamp(2.4rem,6vw
 .timeline li p{margin:3px 0 0;color:var(--muted);line-height:1.5}
 .speaker-slots{margin-top:10px;border-top:1px solid var(--line)}
 .speaker-slot{display:grid;grid-template-columns:95px 1fr;gap:10px;padding:10px 0;border-bottom:1px solid var(--line)}
-.speaker-slot time{font-size:.82rem}.speaker-slot strong{display:block;color:var(--navy)}
-.speaker-slot .affiliation,.speaker-slot .talk-title{display:block;color:var(--muted);font-size:.82rem;line-height:1.4}
-.speaker-slot .talk-title{font-style:italic}.session-discussion{font-size:.82rem}
+.speaker-slot time{font-size:.82rem}
+.timeline .speaker-slot p{margin:0}.speaker-slot .speaker-name{color:var(--navy);font-weight:800}
+.speaker-slot .affiliation,.speaker-slot .talk-title{margin-top:3px;color:var(--muted);font-size:.82rem;line-height:1.4}
+.speaker-slot .talk-title{font-style:italic}
 .site-footer{padding:42px 0;color:#b9cad8;background:#071c35}
 .site-footer strong{color:var(--white)}
 .site-footer a{color:#9edbd6}

@@ -47,16 +47,19 @@ h1{max-width:940px;margin:0;font-family:Georgia,serif;font-size:clamp(2.4rem,6vw
 .contact-lead p:last-child{margin-bottom:0}
 .directory-heading{color:var(--navy);font-size:1.35rem}
 .registration-status{margin:24px 0 54px}
-.program-overview{display:grid;grid-template-columns:repeat(2,1fr);gap:28px;align-items:start}
-.day-schedule{overflow:hidden;border:1px solid var(--line);border-radius:18px;background:var(--white);box-shadow:var(--shadow)}
-.day-schedule:last-child{grid-column:1/-1}
-.day-schedule header{padding:28px;background:var(--navy);color:var(--white)}
-.day-schedule header .eyebrow{margin-bottom:8px}.day-schedule header h2{margin:0;color:var(--white);font-size:2rem}
-.timeline{list-style:none;margin:0;padding:8px 28px 22px}
-.timeline li{display:grid;grid-template-columns:130px 1fr;gap:18px;padding:13px 0;border-bottom:1px solid var(--line)}
-.timeline li:last-child{border-bottom:0}.timeline time{color:var(--blue);font-weight:800}.timeline .break span{color:var(--muted)}.timeline .special span{font-weight:700}
-.timeline li p{margin:3px 0 0;color:var(--muted);line-height:1.5}
+.program-schedule{max-width:960px}
+.program-day + .program-day{margin-top:58px}
+.program-day > h2{padding-bottom:10px;border-bottom:2px solid var(--navy);font-size:clamp(1.8rem,3vw,2.35rem)}
+.session-title{margin:28px 0 8px;padding:8px 16px;color:var(--white);background:var(--teal);font-size:1rem;letter-spacing:.03em}
+.program-talk,.program-break,.program-special{display:grid;grid-template-columns:145px 1fr;gap:20px;padding:10px 16px;border-bottom:1px solid var(--line)}
+.program-talk time,.program-break time,.program-special time{color:var(--blue);font-weight:800}
+.talk-speaker{margin:0;color:var(--navy);font-weight:800}
+.talk-speaker span{margin-left:6px;color:var(--muted);font-weight:400}
+.talk-speaker span::before{content:"("}.talk-speaker span::after{content:")"}
+.talk-title{margin:2px 0 0;color:var(--muted);font-style:italic}
+.program-break{margin:5px 0;color:var(--muted);background:var(--cream)}
+.program-special{margin-top:5px;color:var(--navy);background:#e8f5f3;font-weight:700}
 .site-footer{padding:42px 0;color:#b9cad8;background:#071c35}
 .site-footer strong{color:var(--white)}
 .site-footer a{color:#9edbd6}
-@media(max-width:800px){.nav{align-items:flex-start;flex-direction:column;padding:16px 0}.grid,.directory,.program-overview{grid-template-columns:1fr}.day-schedule:last-child{grid-column:auto}.timeline li{grid-template-columns:1fr;gap:2px}.hero{padding-top:62px}.button.alt{margin:10px 0 0}}
+@media(max-width:800px){.nav{align-items:flex-start;flex-direction:column;padding:16px 0}.grid,.directory{grid-template-columns:1fr}.program-talk,.program-break,.program-special{grid-template-columns:1fr;gap:2px}.talk-speaker span{display:block;margin-left:0}.hero{padding-top:62px}.button.alt{margin:10px 0 0}}

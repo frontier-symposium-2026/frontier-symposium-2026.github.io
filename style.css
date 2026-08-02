@@ -37,23 +37,25 @@ h1{max-width:940px;margin:0;font-family:Georgia,serif;font-size:clamp(2.4rem,6vw
 .contact-directory{margin-top:30px}
 .contact-directory a{font-weight:700}
 .contact-directory span{display:block;color:var(--muted);font-size:.9rem}
-.program-note{margin-top:54px;padding:28px;border-left:4px solid var(--teal);background:var(--cream)}
-.program-note h2{font-size:1.7rem}
-.program-note p{margin-bottom:0}
+.program-heading{padding:42px 0 8px}
+.program-heading .eyebrow{color:var(--blue)}
+.program-heading h1{margin:0;color:var(--navy);font-size:clamp(2.2rem,4vw,3.2rem)}
+.program-heading + .section{padding-top:30px}
 .support-grid{align-items:stretch}
 .details-note{margin:30px 0 0;color:var(--muted)}
 .contact-lead{margin:26px 0 44px}
 .contact-lead p:last-child{margin-bottom:0}
 .directory-heading{color:var(--navy);font-size:1.35rem}
 .registration-status{margin:24px 0 54px}
-.program-overview{display:grid;grid-template-columns:repeat(2,1fr);gap:28px;margin-top:42px;align-items:start}
+.program-overview{display:grid;grid-template-columns:repeat(2,1fr);gap:28px;align-items:start}
 .day-schedule{overflow:hidden;border:1px solid var(--line);border-radius:18px;background:var(--white);box-shadow:var(--shadow)}
 .day-schedule:last-child{grid-column:1/-1}
 .day-schedule header{padding:28px;background:var(--navy);color:var(--white)}
-.day-schedule header .eyebrow{margin-bottom:8px}.day-schedule header h2{margin:0;color:var(--white);font-size:2rem}.day-schedule header p:last-child{margin:8px 0 0;color:#dcecf2}
+.day-schedule header .eyebrow{margin-bottom:8px}.day-schedule header h2{margin:0;color:var(--white);font-size:2rem}
 .timeline{list-style:none;margin:0;padding:8px 28px 22px}
 .timeline li{display:grid;grid-template-columns:130px 1fr;gap:18px;padding:13px 0;border-bottom:1px solid var(--line)}
 .timeline li:last-child{border-bottom:0}.timeline time{color:var(--blue);font-weight:800}.timeline .break span{color:var(--muted)}.timeline .special span{font-weight:700}
+.timeline li p{margin:3px 0 0;color:var(--muted);line-height:1.5}
 .site-footer{padding:42px 0;color:#b9cad8;background:#071c35}
 .site-footer strong{color:var(--white)}
 .site-footer a{color:#9edbd6}

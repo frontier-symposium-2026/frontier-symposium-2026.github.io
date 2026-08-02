@@ -33,14 +33,6 @@ h1{max-width:940px;margin:0;font-family:Georgia,serif;font-size:clamp(2.4rem,6vw
 .schedule{border-left:3px solid var(--teal);padding-left:24px}
 .schedule article{margin-bottom:30px}
 .schedule time{color:var(--blue);font-weight:800}
-.tag{display:inline-block;padding:4px 9px;border-radius:999px;background:#dff3f0;color:#185e59;font-size:.82rem;font-weight:700}
-.tag.planned{background:#e8edf7;color:#334b73}
-.speaker-section{margin-top:60px}
-.speaker-section h2{font-size:clamp(1.7rem,3vw,2.35rem)}
-.speaker-grid{margin-top:24px}
-.speaker-grid .card{display:flex;flex-direction:column;min-height:170px}
-.speaker-grid .card h3{margin:16px 0 6px}
-.speaker-grid .card p{margin:auto 0 0;color:var(--muted)}
 .directory{display:grid;grid-template-columns:repeat(2,1fr);gap:10px 28px;margin-top:24px}
 .directory p{margin:0;padding:10px 0;border-bottom:1px solid var(--line)}
 .committee-directory span{display:block;color:var(--muted);font-size:.9rem}

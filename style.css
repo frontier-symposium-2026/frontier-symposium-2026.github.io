@@ -34,20 +34,20 @@ h1{max-width:940px;margin:0;font-family:Georgia,serif;font-size:clamp(2.4rem,6vw
 .schedule time{color:var(--blue);font-weight:800}
 .directory{display:grid;grid-template-columns:repeat(2,1fr);gap:10px 28px;margin-top:24px}
 .directory p{margin:0;padding:10px 0;border-bottom:1px solid var(--line)}
-.contact-directory{margin-top:30px}
-.contact-directory a{font-weight:700}
-.contact-directory span{display:block;color:var(--muted);font-size:.9rem}
+.home-committee{max-width:850px;margin-top:58px;padding-top:48px;border-top:1px solid var(--line)}
+.committee-list strong{display:block;color:var(--navy)}
+.committee-list span{display:block;color:var(--muted);font-size:.9rem}
 .program-heading{padding:42px 0 8px}
 .program-heading .eyebrow{color:var(--blue)}
 .program-heading h1{margin:0;color:var(--navy);font-size:clamp(2.2rem,4vw,3.2rem)}
 .program-heading + .section{padding-top:30px}
 .venue-details address{margin:0 0 20px;font-style:normal}
 .venue-links,.dining-links{padding-left:20px}.venue-links li,.dining-links li{margin:8px 0}
-.venue-map{width:100%;height:420px;margin-top:28px;border:0;border-radius:14px}
+.venue-map{width:100%;height:600px;margin-top:32px;border:0;border-radius:14px}
+.map-link{margin:8px 0 0;text-align:right}
 .dining-details h3{margin:30px 0 8px;color:var(--navy)}
 .contact-lead{margin:26px 0 44px}
 .contact-lead p:last-child{margin-bottom:0}
-.directory-heading{color:var(--navy);font-size:1.35rem}
 .registration-panel{max-width:680px}
 .registration-details{margin:0;border-top:1px solid var(--line);font-size:1.2rem}
 .registration-details div{display:grid;grid-template-columns:230px 1fr;gap:24px;padding:18px 0;border-bottom:1px solid var(--line)}
@@ -71,4 +71,4 @@ h1{max-width:940px;margin:0;font-family:Georgia,serif;font-size:clamp(2.4rem,6vw
 .site-footer{padding:42px 0;color:#b9cad8;background:#071c35}
 .site-footer strong{color:var(--white)}
 .site-footer a{color:#9edbd6}
-@media(max-width:800px){.nav{align-items:flex-start;flex-direction:column;padding:16px 0}.grid,.directory,.program-overview{grid-template-columns:1fr}.day-schedule:last-child{grid-column:auto}.timeline li,.speaker-slot,.registration-details div{grid-template-columns:1fr;gap:2px}.hero{padding-top:62px}.button.alt{margin:10px 0 0}}
+@media(max-width:800px){.nav{align-items:flex-start;flex-direction:column;padding:16px 0}.grid,.directory,.program-overview{grid-template-columns:1fr}.day-schedule:last-child{grid-column:auto}.timeline li,.speaker-slot,.registration-details div{grid-template-columns:1fr;gap:2px}.venue-map{height:440px}.hero{padding-top:62px}.button.alt{margin:10px 0 0}}

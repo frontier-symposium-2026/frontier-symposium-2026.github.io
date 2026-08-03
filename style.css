@@ -39,11 +39,14 @@ h1{max-width:940px;margin:0;font-family:Georgia,serif;font-size:clamp(2.4rem,6vw
 .directory p{margin:0;padding:10px 0;border-bottom:1px solid var(--line)}
 .home-committee{margin-top:36px}
 .home-committee h3{margin:0;color:var(--navy);font-size:1.1rem}
-.committee-list{display:grid;grid-template-columns:1fr;gap:18px;margin:24px 0 0;padding:0;list-style:none}
-.committee-list li{display:flex;flex-wrap:nowrap;gap:.45rem;margin:0;padding:0;white-space:nowrap}
-.committee-list strong{color:var(--navy)}
-.committee-list strong::after{content:" —"}
+.committee-list{display:grid;grid-template-columns:1fr;gap:5px;margin:12px 0 0;padding:0;list-style:none}
+.committee-list li{display:flex;flex-wrap:nowrap;gap:.4rem;margin:0;padding:0;white-space:nowrap;line-height:1.4}
+.committee-name{color:var(--navy)}
+.committee-name::after{content:" —"}
 .committee-list span{color:var(--muted)}
+.home-support{margin-top:30px}
+.home-support h3{margin-bottom:8px;color:var(--navy);font-size:1.1rem}
+.home-support p{margin-top:0}
 .program-heading{padding:42px 0 8px}
 .program-heading .eyebrow{color:var(--blue)}
 .program-heading h1{margin:0;color:var(--navy);font-size:clamp(2.2rem,4vw,3.2rem)}

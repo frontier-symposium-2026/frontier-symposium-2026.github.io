@@ -36,9 +36,10 @@ h1{max-width:940px;margin:0;font-family:Georgia,serif;font-size:clamp(2.4rem,6vw
 .directory p{margin:0;padding:10px 0;border-bottom:1px solid var(--line)}
 .home-committee{max-width:850px;margin-top:58px;padding-top:48px;border-top:1px solid var(--line)}
 .committee-list{display:grid;grid-template-columns:1fr;gap:18px;margin:24px 0 0;padding:0;list-style:none}
-.committee-list li{margin:0;padding:0}
-.committee-list strong{display:block;color:var(--navy)}
-.committee-list span{display:block;margin-top:4px;color:var(--muted);font-size:.9rem}
+.committee-list li{display:flex;flex-wrap:wrap;gap:.45rem;margin:0;padding:0}
+.committee-list strong{color:var(--navy)}
+.committee-list strong::after{content:" —"}
+.committee-list span{color:var(--muted)}
 .program-heading{padding:42px 0 8px}
 .program-heading .eyebrow{color:var(--blue)}
 .program-heading h1{margin:0;color:var(--navy);font-size:clamp(2.2rem,4vw,3.2rem)}

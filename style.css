@@ -61,10 +61,11 @@ h1{max-width:940px;margin:0;font-family:Georgia,serif;font-size:clamp(2.4rem,6vw
 .contact-lead{margin:26px 0 44px}
 .contact-lead p:last-child{margin-bottom:0}
 .registration-panel{max-width:680px}
-.registration-details{margin:0;border-top:1px solid var(--line);font-size:1.2rem}
+.registration-details{margin:28px 0 0;border-top:1px solid var(--line);font-size:1.2rem}
 .registration-details div{display:grid;grid-template-columns:230px 1fr;gap:24px;padding:18px 0;border-bottom:1px solid var(--line)}
 .registration-details dt{color:var(--navy);font-weight:800}.registration-details dd{margin:0}
-.registration-form-link{display:inline-block;margin-top:22px;font-size:1.12rem;font-weight:800}
+.registration-form-link{display:inline-block;padding:14px 26px;border-radius:999px;color:var(--white);background:var(--blue);font-size:1.12rem;font-weight:800;text-decoration:none;box-shadow:var(--shadow)}
+.registration-form-link:hover{background:var(--navy)}
 .program-overview{display:grid;grid-template-columns:repeat(2,1fr);gap:28px;align-items:start}
 .day-schedule{overflow:hidden;border:1px solid var(--line);border-radius:18px;background:var(--white);box-shadow:var(--shadow)}
 .day-schedule:last-child{grid-column:1/-1}
